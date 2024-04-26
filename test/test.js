@@ -1,7 +1,7 @@
 const test = require('tap').test;
 const fs = require('fs');
 const spawn = require('child_process').spawn;
-const deepEqual = require("deep-equal");
+const deepEqual = require('deep-equal');
 
 test('needs 2 arguments', (t) => {
   const spritezero = spawn('node', ['./bin/spritezero']);
